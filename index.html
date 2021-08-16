@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Form: Formspree</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <form>
+        <label for="name">Name:</label>
+        <!-- Give a break in the middle -->
+        <br>
+        <input id="name" type="text" name="name"/>
+      </form>
+      <form>
+        <label for="email">Email:</label>
+        <!-- Give a break in the middle -->
+        <br>
+        <input id="email" type="text" name="email"/>
+      </form>
+      <form>
+        <label for="form-message">Your message:</label>
+        <!-- Give a break in the middle -->
+        <br>
+          <textarea
+            id="form-message"
+            name="message"
+            autofocus="on"
+            required
+            maxlength="200"
+          ></textarea>
+      </form>
+      <form>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
